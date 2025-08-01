@@ -36,6 +36,7 @@
   "name":"Morbid_Legacy_JineiM",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_chimera_idle","path":"sprites/spr_chimera_idle/spr_chimera_idle.yy",},},
     {"id":{"name":"spr_niku_attack","path":"sprites/spr_niku_attack/spr_niku_attack.yy",},},
     {"id":{"name":"spr_niku_fall","path":"sprites/spr_niku_fall/spr_niku_fall.yy",},},
     {"id":{"name":"spr_niku_idle","path":"sprites/spr_niku_idle/spr_niku_idle.yy",},},
