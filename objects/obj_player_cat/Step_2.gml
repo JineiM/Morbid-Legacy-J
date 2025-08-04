@@ -9,8 +9,8 @@ if(move_y < 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDHash : 0CD74CFA
 	/// @DnDParent : 3AF5C9BA
 	/// @DnDArgument : "imageind_relative" "1"
-	/// @DnDArgument : "spriteind" "spr_niku_jump"
-	/// @DnDSaveInfo : "spriteind" "spr_niku_jump"
+	/// @DnDArgument : "spriteind" "spr_cat_jump"
+	/// @DnDSaveInfo : "spriteind" "spr_cat_jump"
 	sprite_index = spr_cat_jump;
 	image_index += 0;}
 
@@ -25,9 +25,9 @@ if(move_y > 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDParent : 1103CE68
 	/// @DnDArgument : "imageind" "1"
 	/// @DnDArgument : "imageind_relative" "1"
-	/// @DnDArgument : "spriteind" "spr_niku_fall"
-	/// @DnDSaveInfo : "spriteind" "spr_niku_fall"
-	sprite_index = spr_niku_fall;
+	/// @DnDArgument : "spriteind" "spr_cat_idle"
+	/// @DnDSaveInfo : "spriteind" "spr_cat_idle"
+	sprite_index = spr_cat_idle;
 	image_index += 1;}
 
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
@@ -49,8 +49,8 @@ var l0BA7A9A1_0 = instance_place(x + 0, y + 2, [collision_tilemap]);if ((l0BA7A
 		/// @DnDHash : 545F923E
 		/// @DnDParent : 1DEC34C5
 		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "spr_niku_walk"
-		/// @DnDSaveInfo : "spriteind" "spr_niku_walk"
+		/// @DnDArgument : "spriteind" "spr_cat_walk"
+		/// @DnDSaveInfo : "spriteind" "spr_cat_walk"
 		sprite_index = spr_cat_walk;
 		image_index += 0;
 	
@@ -74,8 +74,8 @@ var l0BA7A9A1_0 = instance_place(x + 0, y + 2, [collision_tilemap]);if ((l0BA7A
 		/// @DnDHash : 2A4B1A26
 		/// @DnDParent : 7ADD4E26
 		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "spr_niku_walk"
-		/// @DnDSaveInfo : "spriteind" "spr_niku_walk"
+		/// @DnDArgument : "spriteind" "spr_cat_walk"
+		/// @DnDSaveInfo : "spriteind" "spr_cat_walk"
 		sprite_index = spr_cat_walk;
 		image_index += 0;
 	
@@ -97,7 +97,7 @@ var l0BA7A9A1_0 = instance_place(x + 0, y + 2, [collision_tilemap]);if ((l0BA7A
 		/// @DnDHash : 6250546F
 		/// @DnDParent : 462A4291
 		/// @DnDArgument : "imageind_relative" "1"
-		/// @DnDArgument : "spriteind" "spr_niku_idle"
-		/// @DnDSaveInfo : "spriteind" "spr_niku_idle"
+		/// @DnDArgument : "spriteind" "spr_cat_idle"
+		/// @DnDSaveInfo : "spriteind" "spr_cat_idle"
 		sprite_index = spr_cat_idle;
 		image_index += 0;}}
