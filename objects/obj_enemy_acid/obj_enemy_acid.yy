@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_enemy_acid",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player_cat","path":"objects/obj_player_cat/obj_player_cat.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_enemy_acid",
   "overriddenProperties":[],
