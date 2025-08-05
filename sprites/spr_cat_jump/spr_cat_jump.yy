@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_cat_jump",
   "bboxMode":2,
-  "bbox_bottom":1034,
+  "bbox_bottom":1032,
   "bbox_left":82,
   "bbox_right":731,
   "bbox_top":137,
