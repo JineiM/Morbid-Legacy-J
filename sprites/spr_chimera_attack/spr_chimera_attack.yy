@@ -3,7 +3,7 @@
   "%Name":"spr_chimera_attack",
   "bboxMode":0,
   "bbox_bottom":1470,
-  "bbox_left":122,
+  "bbox_left":905,
   "bbox_right":2744,
   "bbox_top":191,
   "collisionKind":1,
