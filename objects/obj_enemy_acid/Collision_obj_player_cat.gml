@@ -11,15 +11,3 @@ image_index += 0;
 /// @DnDVersion : 1
 /// @DnDHash : 0600744C
 room_restart();
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 78D78E96
-/// @DnDArgument : "var" "obj_boss_chimera"
-/// @DnDArgument : "not" "1"
-/// @DnDArgument : "value" "1"
-if(!(obj_boss_chimera == 1)){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 00F1636F
-	/// @DnDParent : 78D78E96
-	instance_destroy();}
